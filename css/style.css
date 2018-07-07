@@ -177,7 +177,7 @@ ul, ol {
 
 .section-header {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
 }
 
 .section-header .title {
@@ -225,7 +225,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
-.main-btn, .white-btn, .outline-btn {
+.main-btn, .white-btn, .green-btn, .blue-btn, .outline-btn {
     display: inline-block;
     padding: 10px 35px;
     margin: 3px;
@@ -243,6 +243,18 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .white-btn {
     background: #FFF;
     color: #10161A !important;
+}
+
+.green-btn {
+    color:#fff;
+    background-color:#5cb85c;
+    border-color:#4cae4c;
+}
+
+.blue-btn{
+    color:#fff;
+    background-color:#337ab7;
+    border-color:#2e6da4;
 }
 
 .outline-btn {
